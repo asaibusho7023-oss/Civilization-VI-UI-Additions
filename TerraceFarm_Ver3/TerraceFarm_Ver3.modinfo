@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" version="1">
+  <Properties>
+    <Name>Terrace Farm Ver3</Name>
+    <Description>Terrace Farm yields: Food +100, Production +200, Housing +30</Description>
+    <Teaser>Terrace Farm Ver3 - Enhanced yields and housing</Teaser>
+    <Authors>asaibusho7023-oss</Authors>
+    <SpecialThanks>Firaxis Games, CivFanatics Community</SpecialThanks>
+  </Properties>
+  <Dependencies/>
+  <References/>
+  <Blocks>
+    <ImportFiles>
+      <File>Gameplay/Data/TerraceFarm_Ver3.xml</File>
+    </ImportFiles>
+  </Blocks>
+</Mod>

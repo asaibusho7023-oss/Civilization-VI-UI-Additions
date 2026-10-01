@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Improvement_Yields>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_TERRACE_FARM"
+                   YieldType="YIELD_FOOD"/>
+            <Set Yield="100"/>
+        </Update>
+
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_TERRACE_FARM"
+                   YieldType="YIELD_PRODUCTION"/>
+            <Set Yield="200"/>
+        </Update>
+    </Improvement_Yields>
+
+    <Improvements>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_TERRACE_FARM"/>
+            <Set Housing="30"/>
+        </Update>
+    </Improvements>
+</GameData>

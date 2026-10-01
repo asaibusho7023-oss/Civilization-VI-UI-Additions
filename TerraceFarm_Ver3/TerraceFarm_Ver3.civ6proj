@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>1.0.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a1b2c3d4-e5f6-7890-abcd-ef1234567890</ProjectGuid>
+    <ModName>Terrace Farm Ver3</ModName>
+    <ModVersion>1</ModVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ModContent Include="Gameplay\Data\TerraceFarm_Ver3.xml">
+      <SubType>Content</SubType>
+    </ModContent>
+  </ItemGroup>
+  <ItemGroup>
+    <ModInfo Include="TerraceFarm_Ver3.modinfo">
+      <SubType>Content</SubType>
+    </ModInfo>
+  </ItemGroup>
+</Project>
